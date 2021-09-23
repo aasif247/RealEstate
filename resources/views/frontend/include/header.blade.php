@@ -8,7 +8,7 @@
             </div>
             <div class="phone-number d-flex">
                 <div class="icon">
-                    <img src="img/icons/phone-call.png" alt="">
+                    <img src="{{ asset('asset/frontend/img/icons/phone-call.png') }}" alt="">
                 </div>
                 <div class="number">
                     <a href="tel:+45 677 8993000 223">+45 677 8993000 223</a>
@@ -24,7 +24,7 @@
             <nav class="classy-navbar justify-content-between" id="southNav">
 
                 <!-- Logo -->
-                <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand" href="index.html"><img src="{{ asset('asset/frontend/img/core-img/logo.png') }}" alt=""></a>
 
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">

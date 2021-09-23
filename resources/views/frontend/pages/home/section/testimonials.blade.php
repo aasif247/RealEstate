@@ -22,7 +22,7 @@
                             iturut magna.</p>
 
                         <div class="testimonial-author-info">
-                            <img src="img/bg-img/feature6.jpg" alt="">
+                            <img src="asset/frontend/img/bg-img/feature6.jpg" alt="">
                             <p>Daiane Smith, <span>Customer</span></p>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
                             iturut magna.</p>
 
                         <div class="testimonial-author-info">
-                            <img src="img/bg-img/feature6.jpg" alt="">
+                            <img src="asset/frontend/img/bg-img/feature6.jpg" alt="">
                             <p>Daiane Smith, <span>Customer</span></p>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                             iturut magna.</p>
 
                         <div class="testimonial-author-info">
-                            <img src="img/bg-img/feature6.jpg" alt="">
+                            <img src="asset/frontend/img/bg-img/feature6.jpg" alt="">
                             <p>Daiane Smith, <span>Customer</span></p>
                         </div>
                     </div>

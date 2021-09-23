@@ -3,7 +3,7 @@
     <div class="editor-content-area">
         <!-- Section Heading -->
         <div class="section-heading wow fadeInUp" data-wow-delay="250ms">
-            <img src="img/icons/prize.png" alt="">
+            <img src="{{ asset('asset/frontend/img/icons/prize.png')}}" alt="">
             <h2>jeremy Scott</h2>
             <p>Realtor</p>
         </div>
@@ -14,16 +14,16 @@
             turpis lectus, id iaculis risus tempor id. Phasellus fringilla nisl sed sem scelerisque, eget aliquam
             magna vehicula.</p>
         <div class="address wow fadeInUp" data-wow-delay="750ms">
-            <h6><img src="img/icons/phone-call.png" alt=""> +45 677 8993000 223</h6>
-            <h6><img src="img/icons/envelope.png" alt=""> office@template.com</h6>
+            <h6><img src="{{asset('asset/frontend/img/icons/phone-call.png')}}" alt=""> +45 677 8993000 223</h6>
+            <h6><img src="{{ asset('asset/frontend/img/icons/envelope.png')}}" alt=""> office@template.com</h6>
         </div>
         <div class="signature mt-50 wow fadeInUp" data-wow-delay="1000ms">
-            <img src="img/core-img/signature.png" alt="">
+            <img src="{{ asset('asset/frontend/img/core-img/signature.png')}}" alt="">
         </div>
     </div>
 
     <!-- Editor Thumbnail -->
     <div class="editor-thumbnail">
-        <img src="img/bg-img/editor.jpg" alt="">
+        <img src="{{asset('asset/frontend/img/bg-img/editor.jpg')}}" alt="">
     </div>
 </section>

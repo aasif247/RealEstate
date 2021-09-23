@@ -13,9 +13,9 @@
                                 <h6>About Us</h6>
                             </div>
 
-                            <img src="img/bg-img/footer.jpg" alt="">
+                            <img src="{{ ('asset/frontend/img/bg-img/footer.jpg')}}" alt="">
                             <div class="footer-logo my-4">
-                                <img src="img/core-img/logo.png" alt="">
+                                <img src="{{ asset('asset/frontend/img/core-img/logo.png')}}" alt="">
                             </div>
                             <p>Integer nec bibendum lacus. Suspen disse dictum enim sit amet libero males uada feugiat.
                                 Praesent malesuada.</p>
@@ -42,9 +42,9 @@
                             </div>
                             <!-- Address -->
                             <div class="address">
-                                <h6><img src="img/icons/phone-call.png" alt=""> +45 677 8993000 223</h6>
-                                <h6><img src="img/icons/envelope.png" alt=""> office@template.com</h6>
-                                <h6><img src="img/icons/location.png" alt=""> Main Str. no 45-46, b3, 56832, Los
+                                <h6><img src="{{ asset('asset/frontend/img/icons/phone-call.png')}}" alt=""> +45 677 8993000 223</h6>
+                                <h6><img src="{{ asset('asset/frontend/img/icons/envelope.png')}}" alt=""> office@template.com</h6>
+                                <h6><img src="{{ asset('asset/frontend/img/icons/location.png')}}" alt=""> Main Str. no 45-46, b3, 56832, Los
                                     Angeles, CA</h6>
                             </div>
                         </div>
@@ -87,15 +87,15 @@
                             <div class="featured-properties-slides owl-carousel">
                                 <!-- Single Slide -->
                                 <div class="single-featured-properties-slide">
-                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                    <a href="#"><img src="{{ asset('asset/frontend/img/bg-img/fea-product.jpg')}}" alt=""></a>
                                 </div>
                                 <!-- Single Slide -->
                                 <div class="single-featured-properties-slide">
-                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                    <a href="#"><img src="{{ asset('asset/frontend/img/bg-img/fea-product.jpg')}}" alt=""></a>
                                 </div>
                                 <!-- Single Slide -->
                                 <div class="single-featured-properties-slide">
-                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                    <a href="#"><img src="{{ asset('asset/frontend/img/bg-img/fea-product.jpg')}}" alt=""></a>
                                 </div>
                             </div>
                         </div>

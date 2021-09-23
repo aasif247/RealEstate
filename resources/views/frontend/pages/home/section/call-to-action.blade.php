@@ -1,4 +1,4 @@
-<section class="call-to-action-area bg-fixed bg-overlay-black" style="background-image: url(img/bg-img/cta.jpg)">
+<section class="call-to-action-area bg-fixed bg-overlay-black" style="background-image: url({{asset ('asset/frontend/img/bg-img/cta.jpg') }})">
     <div class="container h-100">
         <div class="row align-items-center h-100">
             <div class="col-12">
