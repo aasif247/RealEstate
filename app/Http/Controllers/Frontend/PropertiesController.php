@@ -9,6 +9,10 @@ class PropertiesController extends Controller
 {
     public function index()
     {
-        return view('frontend.pages.home.home');
+        $data = [
+            'title' => 'Properties',
+            'page_title' => 'Properties',
+        ];
+        return view('frontend.pages.properties.properties',$data);
     }
 }

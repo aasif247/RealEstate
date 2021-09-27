@@ -10,7 +10,7 @@
     @include('frontend.pages.home.section.slider')
     @include('frontend.include.search')
     @include('frontend.pages.home.section.featured-properties')
-    @include('frontend.pages.home.section.call-to-action')
+    @include('frontend.include.call-to-action')
     @include('frontend.pages.home.section.testimonials')
     @include('frontend.pages.home.section.editor')
 @endsection

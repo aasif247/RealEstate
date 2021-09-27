@@ -21,6 +21,7 @@
      {{-- <link rel="stylesheet" href="asset/frontend/css/style.css"> --}}
 
      <link rel="stylesheet" href="{{ asset('asset/frontend/css/style.css') }}">
+     @stack('stylesheet')
 </head>
 
 <body>
@@ -45,6 +46,7 @@
     @include('frontend.include.scripts')
     <!-- ##### Script Area End ##### -->
 
+    @stack('script')
 </body>
 </body>
 

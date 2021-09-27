@@ -9,6 +9,10 @@ class ContactController extends Controller
 {
     public function index()
     {
-        return view('frontend.pages.home.home');
+        $data = [
+            'title' => 'Contact',
+            'page_title' => 'Contact',
+        ];
+        return view('frontend.pages.contact.contact',$data);
     }
 }

@@ -8,7 +8,11 @@ use Illuminate\Http\Request;
 class AboutController extends Controller
 {
     public function index()
-    {
-        return view('frontend.pages.home.home');
+    {   
+        $data = [
+            'title' => 'About Us',
+            'page_title' => 'About Us',
+        ];
+        return view('frontend.pages.about.about',$data);
     }
 }

@@ -10,3 +10,4 @@
 <script src="{{ asset('asset/frontend/js/jquery-ui.min.js') }}"></script>
 <!-- Active js -->
 <script src="{{ asset('asset/frontend/js/active.js') }}"></script>
+@stack('scripts')

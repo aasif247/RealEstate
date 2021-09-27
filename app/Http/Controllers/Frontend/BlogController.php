@@ -9,6 +9,10 @@ class BlogController extends Controller
 {
     public function index()
     {
-        return view('frontend.pages.home.home');
+        $data = [
+            'title' => 'BLOG',
+            'page_title' => 'BLOG',
+        ];
+        return view('frontend.pages.blog.blog',$data);;
     }
 }
