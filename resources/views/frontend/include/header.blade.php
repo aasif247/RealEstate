@@ -43,11 +43,15 @@
                     <!-- Nav Start -->
                     <div class="classynav">
                         <ul>
-                            <li><a href="{{ url('/home') }}">Home</a></li>
-                            <li><a href="{{ route('about.us') }}">About Us</a></li>
-                            <li><a href="{{ route('properties') }}">Properties</a></li>
-                            <li><a href="{{ route('blog') }}">Blog</a></li>
-                            <li><a href="{{ route('contact') }}">Contact</a></li>
+                            <li><a class="{{ (request()->is('home')) ? 'menu-active' : '' }}" href="{{ route('home') }}">Home </a></li>
+
+                            <li><a class="{{ (request()->is('about-us')) ? 'menu-active' : '' }}"href="{{ route('about.us') }}">About Us</a></li>
+
+                            <li><a class="{{ (request()->is('properties')) ? 'menu-active' : '' }}"href="{{ route('properties') }}">Properties</a></li>
+
+                            <li><a class="{{ (request()->is('blog')) ? 'menu-active' : '' }}"href="{{ route('blog') }}">Blog</a></li>
+
+                            <li><a class="{{ (request()->is('contact')) ? 'menu-active' : '' }}"href="{{ route('contact') }}">Contact</a></li>
                         </ul>
 
                         <!-- Search Form -->

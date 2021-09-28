@@ -23,5 +23,3 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
     <script src="asset/frontend/js/map-active.js"></script>
 @endpush
-
-ahsjnjjklsj jjlisasn asset

@@ -1791,3 +1791,6 @@ img {
   color: #7d7d7d; }
 
 /*# sourceMappingURL=style.css.map */
+.menu-active{
+  color: #e60b0b !important; 
+}
